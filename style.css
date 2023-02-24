@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    margin: 10px 50px 10px 50px;
+}
+.nav-tengah a{
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px 0 15px;
+    font-weight: bold;
+}
+.navbar button{
+    border-radius: 5px;
+    margin: 0 20px 0 20px;
+    width: 70px;
+    height: 40px;
+    font-weight: bold;
+}
+.kartu{
+    display: flex;
+    margin: 150px 80px 80px 80px ;
+    grid-gap: 100px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 196, 99);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+.mid .m{
+    margin: 50px;
+    align-items: center;
+    /* display: flexbox; */
+    justify-content: center;
+}
